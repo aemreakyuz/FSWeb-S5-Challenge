@@ -22,6 +22,7 @@ const Tablar = (konu) => {
     haber.textContent = topic;
     konular.append(haber);
   });
+  return konular;
 };
 
 const tabEkleyici = (secici) => {
